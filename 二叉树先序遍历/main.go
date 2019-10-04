@@ -7,6 +7,7 @@ type TreeNode struct {
 }
 
 func preorderTraversal(root *TreeNode) []int {
+
 	stack := make([]*TreeNode, 0)
 	res := make([]int, 0)
 	stack = append(stack, root)
